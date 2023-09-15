@@ -6,7 +6,7 @@ ob.ehlo()
 ob.starttls()
 
 # Login to your gmail
-ob.login('ah32723272@gmail.com', 'kisnbiiaquoxngqa')
+ob.login('your email', 'app password')
 
 # Make Massage for sending
 subject = 'Test Python'
@@ -14,10 +14,11 @@ body = 'I love Python'
 message = 'Subject: {}\n\n{}'.format(subject, body)
 
 # Make a list of sending gmails
-list_add = ['alihaider7214408@gmail.com', 'networkking0097@gmail.com'] 
+list_add = ['client1@gmail.com', 'client2@gmail.com'] 
 
 # Send the Mail
-ob.sendmail('ah32723272@gmail.com', list_add, message)
+ob.sendmail('you email', list_add, message)
 print('Email sent successfully')
 
+# close this program
 ob.quit()
