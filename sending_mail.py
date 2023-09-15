@@ -9,8 +9,8 @@ ob.starttls()
 ob.login('your email', 'app password')
 
 # Make Massage for sending
-subject = 'Test Python'
-body = 'I love Python'
+subject = 'your subject'
+body = 'your massage'
 message = 'Subject: {}\n\n{}'.format(subject, body)
 
 # Make a list of sending gmails
